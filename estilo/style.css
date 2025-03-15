@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    padding: 20px;
+}
+.projetos {
+    width: 25%;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+.conteudo {
+    display: flex;
+    width: 75%;
+    padding: 10px;
+}
+.exp, .exp2, .formacao{
+    width: 48%;
+    padding: 15px;
+    border: 1px solid black;
+}
+.exp, .exp2 {
+    padding: 15px;
+    border: 1px solid black;
+}
+.formacao {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid black;
+}
+.formacao h2 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.formacao ul {
+    list-style-type: none;
+    padding: 0;
+}
+.formacao ul li {
+    margin: 5px 0;
+    padding-left: 10px;
+    position: relative;
+}
+.formacao ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: black;
+}
+.reviews {
+    text-align: center;
+    padding: 20px;
+}
+.review {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid black;
+}
